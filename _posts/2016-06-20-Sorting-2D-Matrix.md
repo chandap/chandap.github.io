@@ -6,12 +6,8 @@ Lets see how can we sort a $$ m \times n $$ matrix such that each row is sorted 
 
 Consider the following matrix : 
 
-![an image alt text]({{ site.baseurl }}/images/matrix.jpg "2D matrix with m rows and n columns")
+![an image alt text]({{ site.baseurl }}/images/matrix.png "2D matrix with m rows and n columns")
 
 
 
-| a             | ...           | b     | ...  |  c  |
-| :-----------: |:-------------:|:-----:|:----:|:---:|
-| .             | .             | .     |  .   |  .  | 
-| p             | .             |  q    | ...  |  r  |
 
