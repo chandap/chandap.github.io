@@ -14,6 +14,10 @@ Now if we sort column 1, assume that the positions of $$a$$ and $$p$$ are swappe
 
 If the positions of $$a$$ and $$p$$ are swapped, we have $$ a \geq p $$, which implies $$ b \geq p $$ (as $$b \geq a \geq p$$). So the order in row 1 is not disrupted. 
 
-Again, assume that columns 1 to $$k - 1$$ are already sorted in addition to the rows. Assume it did not disrupt the order of the elements in row 1. Now lets sort column $$k$$. Now let $$ q \le b $$ so that they are swapped. Can this now disrupt row 1, i.e. can $$ q \le a $$ ? 
+Again, assume that columns 1 to $$k - 1$$ are already sorted in addition to the rows. Assume it did not disrupt the order of the elements in row 1. Now lets sort column $$k$$. Now let $$ q \le b $$ so that they are swapped during sorting column $$k$$. 
+
+Can this now disrupt row 1, i.e. can $$ q \le a $$ ? As we have $$ p \leq q \leq r$$ and $$a \leq p$$, so $$a \leq q$$. 
+
+Again, can $$ q \ge c $$ ? Well, $$ a \leq b \leq c$$ and $$q \le b$$. So $$q \le c$$. 
 
 
