@@ -2,7 +2,7 @@
 layout: post
 title: Sorting a matrix 
 ---
-Lets see how can we sort a $$ m \times n $$ matrix such that each row is sorted and each column is sorted in ascending order. It turns out that if you simply sort all the rows and then sort all the columns, the desired sorted state is achieved. But why is that ? 
+Lets see how can we sort a $$ m \times n $$ matrix such that each row and each column is sorted in ascending order. It turns out that if you simply sort all the rows and then sort all the columns, the desired sorted state is achieved. But why is that ? 
 
 Consider the following matrix : 
 
@@ -19,5 +19,7 @@ Again, assume that columns 1 to $$k - 1$$ are already sorted in addition to the 
 Can this now disrupt row 1, i.e. can $$ q < a $$ ? As we have $$ p \leq q \leq r$$ and $$a \leq p$$, so $$a \leq q$$. 
 
 Again, can $$ q > c $$ ? Well, $$ a \leq b \leq c$$ and $$q < b$$. So $$q < c$$. 
+
+
 
 
