@@ -20,6 +20,9 @@ Can this now disrupt row 1, i.e. can $$ q < a $$ ? As we have $$ p \leq q \leq r
 
 Again, can $$ q > c $$ ? Well, $$ a \leq b \leq c$$ and $$q < b$$. So $$q < c$$. 
 
+# How can we sort all the matrix elements efficiently ?
+
+Remember, the rows and columns are already sorted. So an efficient way to merge min($$m$$,$$n$$) sorted arrays is needed.
 
 
 
