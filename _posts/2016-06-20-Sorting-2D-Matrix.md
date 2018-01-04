@@ -12,8 +12,8 @@ Assume that all the $$m$$ rows are already sorted in ascending order. So $$a \le
 
 Now if we sort column 1, assume that the positions of $$a$$ and $$p$$ are swapped. Can this disrupt the sorted order in row 1, i.e, can this make $$p \ge b$$ ?
 
-If the positions of $$a$$ and $$p$$ are swapped, we have $$ a \geq p $$, which implies $$ b \geq p $$ (as $$b \geq a \geq p). So the order in row 1 is not disrupted. 
+If the positions of $$a$$ and $$p$$ are swapped, we have $$ a \geq p $$, which implies $$ b \geq p $$ (as $$b \geq a \geq p$$). So the order in row 1 is not disrupted. 
 
-Again, assume that columns 1 to $$k$$-1 are already sorted in addition to the rows. Assume it did not disrupt the order of the elements in row 1. Now lets sort column $$k$$. Now let $$ b \le q $$ so that they are swapped. Can this now disrupt row 1, i.e. can $$ q \le a $$ ? 
+Again, assume that columns 1 to $$k - 1$$ are already sorted in addition to the rows. Assume it did not disrupt the order of the elements in row 1. Now lets sort column $$k$$. Now let $$ q \le b $$ so that they are swapped. Can this now disrupt row 1, i.e. can $$ q \le a $$ ? 
 
 
