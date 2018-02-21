@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: Bipartite Check 
+---
 
 ```python
 import numpy as np
