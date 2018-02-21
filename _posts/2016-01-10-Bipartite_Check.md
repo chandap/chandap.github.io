@@ -3,6 +3,8 @@ layout: post
 title: Bipartite Check 
 ---
 
+# Check if a undirected fully connected graph is bipartite. 
+
 ```python
 import numpy as np
 import io
@@ -73,6 +75,8 @@ if __name__ == '__main__':
     print('Bipartite' if DFS(graph['1'],'RED') else 'Not Bipartite')
 ```
 
+## Output
+```python
     ----graph------
     1 -> ['2', '3', '4']
     6 -> ['3', '4']
@@ -83,7 +87,7 @@ if __name__ == '__main__':
     
     
     Bipartite
-    
+```    
 
 
 ```python
